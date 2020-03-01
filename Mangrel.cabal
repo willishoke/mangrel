@@ -23,4 +23,5 @@ executable Mangrel
                        bytestring,
                        vector,
                        vector-split,
-                       split
+                       split,
+                       random
