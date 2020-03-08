@@ -24,3 +24,22 @@ purp = bitmapOfByteString 400 400 (BitmapFormat TopToBottom PxRGBA) bitmapData T
 --borrow
 disp :: Picture -> IO ()
 disp = display (InWindow "Mangrel" (400, 400) (10, 10)) white 
+
+(<=?=>) :: [Centroid] -> [Centroid] -> Bool
+infix 4 <=?=> -- approximate equality over lists
+(<=?=>) = \xs ys ->
+  let xs' = map round (concat xs) :: [Int]
+      ys' = map round (concat ys) :: [Int]
+  in sum (zipWith (-) xs' ys') == 0
+   
+process :: DynamicImage -> IO ()
+process = \i -> do
+  let xs = extractData i
+  let w = imageWidth $ convertRGB8 i
+  let h = imageHeight $ convertRGB8 i
+  centroids <- initCentroids xs 3
+  let centroids' = cluster xs centroids 
+  let newPic = recolor xs centroids'
+  print centroids
+  print centroids'
+  writePng "./hello.png" $ packData w h newPic

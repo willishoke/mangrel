@@ -1,5 +1,5 @@
 name:                Mangrel
-version:             0.1.0.0
+version:             0.1.0.1
 homepage:            
 license:             MIT
 license-file:        LICENSE
@@ -19,8 +19,6 @@ executable Mangrel
   ghc-options:        -O2
   build-depends:       base >= 4.7 && < 5, 
                        JuicyPixels,
-                       gloss,
-                       bytestring,
                        vector,
                        vector-split,
                        split,

@@ -13,7 +13,7 @@ cluster = \ps cs ->
       sortF = comparing fst
       groupF = \x y -> fst x == fst y
       grouped = (groupBy groupF . sortBy sortF) initial
-  in map (\group -> mean (map snd group)) grouped 
+  in map (\group -> mean (map snd group)) grouped
 
 l2 :: Pix -> Pix -> Float
 l2 = \p1 p2 ->

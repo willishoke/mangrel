@@ -1,11 +1,15 @@
 /home/willis/Documents/557/Mangrel/src/Mangrel.hs:
-  hash: f87a5ccab73d24e11cb1dca263998d0d49eb134d6526c3d0713ca675be9e331e
-  size: 769
-  modtime: 1582848750
+  hash: 8ecb63bbf6b8fe87eb74ef06444d64623d3af62461ab6bbfc9a8dad2c1888c24
+  size: 1999
+  modtime: 1583652267
+/home/willis/Documents/557/Mangrel/src/KM.hs:
+  hash: 76c590fe2b19860a8804b8a19a1570a21b0334ccb5ce0e2f3b31cff60136fe0f
+  size: 697
+  modtime: 1583624196
 /home/willis/Documents/557/Mangrel/Mangrel.cabal:
-  hash: 9f918046d10718ad0be58b21b4950fa8901022dad01db9c7f4445c0520daa85e
-  size: 846
-  modtime: 1582843118
+  hash: 12eefc08ab90a029f820fac7761b6634c1b94c995653f05f669f1087d6ccbe74
+  size: 748
+  modtime: 1583493666
 /home/willis/Documents/557/Mangrel/README.md:
   hash: c27b556833a2a67976a11f1a1e3620381cce8a7fa28adb2eacf242d4af1f1098
   size: 10
