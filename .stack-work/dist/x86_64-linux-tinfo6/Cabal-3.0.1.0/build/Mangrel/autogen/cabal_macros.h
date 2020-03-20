@@ -22,6 +22,17 @@
   (major1) == 3 && (major2) == 3 && (minor) <= 4)
 #endif /* MIN_VERSION_JuicyPixels */
 
+/* package ansi-terminal-0.10.3 */
+#ifndef VERSION_ansi_terminal
+#define VERSION_ansi_terminal "0.10.3"
+#endif /* VERSION_ansi_terminal */
+#ifndef MIN_VERSION_ansi_terminal
+#define MIN_VERSION_ansi_terminal(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 3)
+#endif /* MIN_VERSION_ansi_terminal */
+
 /* package base-4.13.0.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.13.0.0"
@@ -32,6 +43,17 @@
   (major1) == 4 && (major2) <  13 || \
   (major1) == 4 && (major2) == 13 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
+
+/* package colour-2.3.5 */
+#ifndef VERSION_colour
+#define VERSION_colour "2.3.5"
+#endif /* VERSION_colour */
+#ifndef MIN_VERSION_colour
+#define MIN_VERSION_colour(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 5)
+#endif /* MIN_VERSION_colour */
 
 /* package random-1.1 */
 #ifndef VERSION_random
@@ -210,7 +232,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "Mangrel-0.1.0.1-JPCJkexCKHSJp0lSHotocw-Mangrel"
+#define CURRENT_COMPONENT_ID "Mangrel-0.1.0.1-Cqi8fNPpQ22Igvc34EH2fg-Mangrel"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.1"

@@ -30,7 +30,7 @@ version = Version [0,1,0,1] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/bin"
-libdir     = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/lib/x86_64-linux-ghc-8.8.2/Mangrel-0.1.0.1-JPCJkexCKHSJp0lSHotocw-Mangrel"
+libdir     = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/lib/x86_64-linux-ghc-8.8.2/Mangrel-0.1.0.1-Cqi8fNPpQ22Igvc34EH2fg-Mangrel"
 dynlibdir  = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/lib/x86_64-linux-ghc-8.8.2"
 datadir    = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/share/x86_64-linux-ghc-8.8.2/Mangrel-0.1.0.1"
 libexecdir = "/home/willis/Documents/557/Mangrel/.stack-work/install/x86_64-linux-tinfo6/c575562534f44701ec7c1c264c42fb5a0bff555089c133c815f47dfef3cde947/8.8.2/libexec/x86_64-linux-ghc-8.8.2/Mangrel-0.1.0.1"
